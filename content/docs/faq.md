@@ -109,3 +109,29 @@ Build settings:
 ## Can I use Next.js without exporting a static site or incremental static regeneration feature?
 
 Since we do not yet provide a Nodejs runtime environment, using nextjs without exporting a static page is not possible. Incremental static regeneration also requires server-side rendering at runtime, so regeneration of static pages at runtime is not possible.
+
+## I'm getting "Additional permissions required" over and over, what do I do?
+
+ If you are facing this error, please follow the next steps:
+ ```
+ - Access GitHub Settings:
+Go to your GitHub profile and navigate to the Settings page.
+
+ - Manage Integrations:
+Under the Settings page, locate the Integrations section. Click on the Applications tab.
+
+ - Uninstall in Danger Zone:
+In the application configuration page, locate the Danger Zone section. Click on the Uninstall button next to "IONOS Deploy Now".
+
+ - Confirm Uninstall:
+A pop-up will appear confirming your intent to uninstall Ionos Deploy Now. Click on the Uninstall button again to proceed.
+
+ - Completion:
+Once the uninstall process is complete, the Ionos Deploy Now application will be removed from your GitHub account.
+From here, you can link your account back again from Deploy Now interface.
+
+
+```
+if this error persists after following these steps, please contact Support at deploynow-support@ionos.com
+
+
